@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "167149215112",
+    "firebase_url": "https://canteenproject-9f35e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "canteenproject-9f35e",
+    "storage_bucket": "canteenproject-9f35e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167149215112:android:519ced254ae1549841ae3d",
+        "android_client_info": {
+          "package_name": "com.example.test01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDool-0244HmR_yNDOJYZFsCTCFQNQk2mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
