@@ -12,18 +12,17 @@ class MyTabBar extends StatelessWidget {
   List<Tab> _buildCategoryTabs() {
     return FoodCategory.values.map((category) {
       return Tab(
-        text: category.toString().split('.').last,
+        text: category.displayName,
       );
     }).toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: TabBar(
-        controller: tabController,
-        tabs: _buildCategoryTabs(),
-      ),
+    return TabBar(
+      controller: tabController,
+      isScrollable: true,
+      tabs: _buildCategoryTabs(),
     );
   }
 }

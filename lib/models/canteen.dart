@@ -96,7 +96,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/coke.jpeg",
       price: 50,
       availableAddons: List.empty(),
-      category: FoodCategory.Cold_Drinks,
+      category: FoodCategory.coldDrinks,
     ),
     Food(
       name: "Fanta",
@@ -104,7 +104,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/fanta.jpeg",
       price: 50,
       availableAddons: List.empty(),
-      category: FoodCategory.Cold_Drinks,
+      category: FoodCategory.coldDrinks,
     ),
     Food(
       name: "Sprite",
@@ -112,7 +112,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/sprite.jpeg",
       price: 50,
       availableAddons: List.empty(),
-      category: FoodCategory.Cold_Drinks,
+      category: FoodCategory.coldDrinks,
     ),
     //hotDrinks
     Food(
@@ -121,7 +121,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/blackCoffee.jpeg",
       price: 40,
       availableAddons: List.empty(),
-      category: FoodCategory.Hot_Drinks,
+      category: FoodCategory.hotDrinks,
     ),
     Food(
       name: "Milk Tea",
@@ -129,7 +129,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/milkTea.jpeg",
       price: 20,
       availableAddons: List.empty(),
-      category: FoodCategory.Hot_Drinks,
+      category: FoodCategory.hotDrinks,
     ),
     Food(
       name: "Black Tea",
@@ -137,7 +137,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/blackTea.jpeg",
       price: 15,
       availableAddons: List.empty(),
-      category: FoodCategory.Hot_Drinks,
+      category: FoodCategory.hotDrinks,
     ),
     Food(
       name: "Lemon Tea",
@@ -145,7 +145,7 @@ class Canteen extends ChangeNotifier {
       imagePath: "lib/images/lemonTea.jpeg",
       price: 15,
       availableAddons: List.empty(),
-      category: FoodCategory.Hot_Drinks,
+      category: FoodCategory.hotDrinks,
     ),
   ];
 
